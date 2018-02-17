@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Selection Version 1</title>
+</head>
+
+<h1>Selection What Am I</h1>
+<p>Please choose the correct option</p>
+
+<form id="frm1">
+	<p>What am i? <input type="text" id="user_input"></p>
+	<p><button type="submit" >Submit</button></p>
+</form>
+
+<p id="result"></p>
+
+<script>
+
+
+		document.getElementById("frm1").onsubmit = function(event){
+		event.preventDefault();
+		
+		var result = document.getElementById("result");
+			result.innerHTML = frm1.user_input.value;
+			form.reset();
+	
+		}
+	
+
+	
+</script>
+<body>
+</body>
+</html>

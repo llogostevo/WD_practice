@@ -1,0 +1,1 @@
+Hello this is just a plain text file to test the method of pulling in plain text to the ruby file
