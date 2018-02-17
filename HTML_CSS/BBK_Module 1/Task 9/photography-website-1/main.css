@@ -1,0 +1,47 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("img/_DSC0253.NEF.jpg");
+    background-color: lightyellow;
+}
+
+img {
+    width: 100%;
+    border-radius: 25px;
+    max-width: 650px;
+}
+
+
+.list_none {
+    list-style: none;
+    
+}
+
+navigation {
+    font-family: 'Modak', cursive;
+    font-size: 2em;
+}
+navigation ul li {
+    
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    color: black;
+    border-radius: 25px;
+    list-style: none;
+    
+    display:inline-block;
+}
+
+navigation a:link, a:visited {
+    color: black;
+    padding: 14px 25px;
+    text-decoration:none;
+    display:inline-block;
+}
+
+navigation ul li a:hover, a:active {
+    text-decoration:none;
+    background-color: red;
+    color: black;
+    border-radius: 25px;
+}

@@ -1,0 +1,130 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1 {
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center
+	
+}
+
+header nav a {
+	text-decoration: none;
+	color: #000000;
+	font-family: 'Ubuntu', sans-serif;
+	margin:2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left:8px;
+	padding-right:8px;
+	border-style:solid;
+	border-radius: 25px;
+}
+
+header nav a:hover {
+	color: #F59104;
+	
+}
+
+	.livelink {
+	text-decoration: none;
+	color: #F59104;
+	font-family: 'Ubuntu', sans-serif;
+	margin:2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left:8px;
+	padding-right:8px;
+	border-style:solid;
+	border-radius: 25px;
+}
+
+ .livelink:hover {
+	color: #000000;
+	
+}
+
+header nav {
+	text-align: center;
+}
+
+.world-map {
+	
+	width: 95%;
+	margin-top:50px;
+	margin-right:2.5%;
+	margin-left:2.5%;
+	display:block;
+ 	border-radius: 100%;
+	border-style:solid;
+	border-color:black;
+}
+
+#wrapper {
+  max-width:940px;
+  margin: 0 auto;
+  padding:0 5%;
+}
+
+a{
+  text-decoration:none;
+}
+
+img {
+  max-width:100%; /*means image will fill parent element but not be any bigger */
+  border-radius: 5%;
+}
+
+h3 {
+ margin: 15px 0 1em 0;
+ font-weight: bold;
+}
+
+/*************************************************************
+                            FOOTER
+**************************************************************/
+
+footer{
+ font-size: 0.75em;
+  text-align:center;
+  clear:both; /*no floating elements allowed on the left or the right of the footer*/
+  padding-top: 50px;
+  color: #eee;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  
+}
+
+/*************************************************************
+                            PAGE: PORTFOLIO
+**************************************************************/
+
+#gallery {
+  margin:0;
+  padding:0;
+  list-style:none; /* removes the bullet point from lists */
+}
+
+#gallery li {
+ float: left; /* allows to position elements in a special way, image is floated left or right, and text
+  is then positioned around. floating the elements makes them appear side by side*/
+  width: 45%; 
+  /* setting the width to 45%, each image will only ever take up 45% of the parent element  
+  as the default setting of the page is 100% it means that there will two images taking up 45% of the page with 10% left over for seperation. This might differ dependent on image size on other sites 
+  */
+  margin: 2.5%;
+  /*2.5 is used to fill with the extra 10% of space from previous, 5% for each image. wiht 2.5 on either side */
+  background-color:#f5f5f5;
+  color:#bdc3c7;
+}
+
+#gallery li a p {
+  margin:0;
+  padding:5%;
+  font-size:0.75em;
+  color:#bdc3c7
+}
+

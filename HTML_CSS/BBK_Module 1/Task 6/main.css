@@ -1,0 +1,83 @@
+header {
+    background-image: url("img/lloyd_mountain.JPG");
+    background-color: #ffcf33;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.favourite_websites {
+    background-color: #ffcf33;
+    padding: 10% 0;
+}
+
+#site_navigation {
+    background-color: ghostwhite;
+}
+
+#who_am_i {
+    background-color: green;
+    padding: 1% 10%;
+}
+
+#cfbs_header{
+    background-color: ghostwhite;
+    border-color: ghostwhite;
+    border-style: solid;
+    border-radius: 10px 25px 25px 10px;
+    padding: 5px 15px 10px 10px;
+}
+
+#course_reasons {
+    background-color: ghostwhite;
+    
+}
+
+#my_experience {
+    background-color: green;
+    
+}
+
+#future_plans {
+    background-color: ghostwhite;
+    
+}
+
+.center {
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+}
+
+/*
+CSS navigation 
+*/
+
+#site_navigation li {
+    display: inline-block;
+}
+
+#site_navigation li {
+    border-width:5px;
+    border-style:solid;
+    border-color:black;
+    padding: 5px;
+    border-radius: 25px;
+    
+}
+
+#site_navigation a {
+    text-decoration: none; 
+    
+}
+
+
+#site_navigation li a:link, a:visited {
+    color:black;
+}
+
+#site_navigation li:hover {
+    background-color: green;
+    color: white;
+    
+}
+

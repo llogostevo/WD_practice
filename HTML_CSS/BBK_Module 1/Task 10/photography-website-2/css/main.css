@@ -1,0 +1,92 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#header {
+    background-color:white;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    margin:0;
+    padding:0;
+    
+}
+
+#logo {
+    float:left;
+    margin:0 20px 0px 10px
+    
+}
+
+#sitenav li {
+    display: inline-block;
+}
+
+.nav li {
+    list-style: none;
+}
+
+.nav li #current {
+    border-color: black;
+    background-color: lightgrey;
+}
+
+.nav li a {
+    text-decoration: none;
+    color:black;
+    border-style: solid;
+    border-color: black;
+    border-radius:25px;
+    background-color:white;
+    margin-right: 10px;
+    padding: 5px 20px 5px 5px;
+    display: block;
+}
+
+#sitenav .nav li a:hover {
+    background-color: lightgrey;
+    color:white;
+}
+
+li a#current:hover {
+    background-color: white;
+    color:black;
+    border-color: black;
+}
+
+.nav img {
+    height:20px;
+    width:20px; 
+    float:left;
+    margin-right:10px
+}
+
+.nav li a:hover {
+    border-style: solid;
+    border-color: black;
+    border-radius:25px;
+    background-color:white;
+    margin-right: 10px;
+    padding: 5px 20px 5px 5px;
+    display: block;
+}
+
+/***** 
+https://scotch.io/tutorials/how-to-change-a-css-background-images-opacity
+
+THIS ISNT WORKING?
+ *****/
+.background-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.background-image img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
+}
+
+
